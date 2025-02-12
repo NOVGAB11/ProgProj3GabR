@@ -1,0 +1,68 @@
+*{
+  font-family: Papyrus, Arial, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url('/images/space.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
+}
+
+
+
+
+.content h2 {
+  font-size: 2em;
+  color: #ffffff;
+  text-shadow: 3px 3px 5px #000000;
+  text-align: center;
+
+}
+
+.main-title{
+  font-size: 3em;
+  color: #ffffff;
+  padding: 15px;
+  border: 3px solid #ffffff;
+  background-color: none;
+  box-shadow: 0px 3px 8px #000000 ;
+  text-shadow: 3px 3px 5px #000000
+
+}
+
+
+
+.UserSection{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#UsersFortune{
+  font-size: 2em;
+  color: #ffffff;
+  text-shadow: 3px 3px 5px #000000
+
+}
+
+#UserButton{
+  background-color: #4c88d8;
+  font-size: 2em;
+  border: 3px solid #f10303;
+  border-radius: 10px;
+  text-shadow: 3px 3px 5px #000000  
+}
+
+#UserButton:hover{
+  cursor: pointer;
+  background: #ffd901; 
+}
+
