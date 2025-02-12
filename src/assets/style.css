@@ -15,10 +15,17 @@ body {
   height: 100vh;
 }
 
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 
-
-.content h2 {
+.greeting h2 {
   font-size: 2em;
   color: #ffffff;
   text-shadow: 3px 3px 5px #000000;
@@ -27,7 +34,7 @@ body {
 }
 
 .main-title{
-  font-size: 3em;
+  font-size: 4em;
   color: #ffffff;
   padding: 15px;
   border: 3px solid #ffffff;
@@ -43,7 +50,8 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
+  align-items: center;
 }
 
 #UsersFortune{
@@ -57,8 +65,10 @@ body {
   background-color: #4c88d8;
   font-size: 2em;
   border: 3px solid #f10303;
-  border-radius: 10px;
-  text-shadow: 3px 3px 5px #000000  
+  width: 200px;
+  text-shadow: 3px 3px 5px #000000
+  
+
 }
 
 #UserButton:hover{
