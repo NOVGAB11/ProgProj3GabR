@@ -35,7 +35,7 @@ const fortunes = [
   <main class="app"> 
    
     <audio id="Audio" ref="audio">
-      <source src="/audio/perfect-beauty-191271.mp3" type="audio/mp3" />
+      <source src="/audio/perfect-beauty-191271.mp3" type="audio/mp3"/>
     </audio>
 
     <section class="greeting">
